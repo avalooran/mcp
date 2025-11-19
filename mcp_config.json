@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "custom-promptz": {
+      "command": "python",
+      "args": ["mcp-server/server.py"],
+      "env": {
+        "CUSTOM_PROMPTZ_API_URL": "http://localhost:8000"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
